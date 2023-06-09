@@ -16,9 +16,15 @@ body {
   background: #e5e5e5;
 }
 
+/* --------------------------NAV-------------------------------- */
+
+.nav-container .presentation-container {
+background-color: #344563;
+}
+
 /* Styiling Header and nav using FLEX/ Logo font and color figures */
+
 .nav-container {
-  /* border: 3px solid rgb(8, 206, 241); */
   list-style: none;
   display: flex;
   height: 10vh;
@@ -43,15 +49,10 @@ body {
   height: 25%;
 }
 
-/* section border radious */
-section {
-  border-bottom-left-radius: 5em;
-  background-color: white;
-}
+/*------------------------PRESENTATION---------------------------------*/
 
 /* Styiling Section and divs using FLEX/ BackgroundImage,h1 title, and software developer presentation figures */
-.section-container {
-  /* border: 3px solid red; */
+.presentation-container {
   background-image: url(assets/header-shapes.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,12 +61,11 @@ section {
   align-items: flex-start;
   padding: 22vh 8vw;
   gap: 12px;
+  border-bottom-left-radius: 5em;
+  background-color: white;
 }
 
-/* Just borderin all items for guide myself better */
-
-.section-container h1 {
-  /* border: 3px solid yellow; */
+.presentation-container h1 {
   background: none;
   color: rgba(23, 43, 77, 1);
   font-weight: 700;
@@ -73,15 +73,13 @@ section {
   font-size: 2.4em;
 }
 
-.section-container p {
-  /* border: 3px solid black; */
+.presentation-container p {
   color: #344563;
   font-weight: 600;
   line-height: 24px;
 }
 
-.section-container span {
-  /* border: 3px solid aqua; */
+.presentation-container span {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -91,7 +89,6 @@ section {
 }
 
 .item4 {
-  /* border: 3px solid rgb(0, 255, 64); */
   background-image: url(assets/social\ media\ icons.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,4 +96,115 @@ section {
   justify-content: space-between;
   width: 170.17px;
   height: 20px;
+}
+
+/* ------------------------------CARDS---------------------------------- */
+
+/* Card-container general settings */
+/* note: I've placed the images in the html */
+.card-container {
+  display: grid;
+  background-color: white;
+  border: 1px solid #dfe1e6;
+  grid-template-columns: auto;
+  margin: 5%;
+  padding: 5%;
+  border-radius: 1em;
+  text-align: center;
+}
+
+/* general settings for every Cards */
+.cardWorks{
+  text-align: start;
+}
+
+/* Editing the TONIC word inside the card*/
+div > h4{
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: rgba(23, 43, 77, 1);
+}
+
+/* editing "Back End Dev", "2015" and dots in the card */
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: rgba(193, 199, 208, 1);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+/* Editing the word: "CANOPY" */
+div .word1{
+color: rgba(52, 69, 99, 1);
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+}
+
+/* Editing the word: "Back End Dev" */
+div .word2{
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #7A869A;
+margin-left: 8px;
+}
+
+/* Editing the word: "2015" */
+div .word3 {
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #7A869A;
+margin-left: 8px;
+}
+
+/* Editing the paragraph inside de card */
+
+div > p {
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: rgba(52, 69, 99, 1);
+}
+
+/* Editing the skills part insidte the card */
+
+.skill {
+  background: #EBEBFF;
+  border-radius: 8px;
+  width: 57px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(96, 112, 255, 1);
+  padding: 4px 12px 4px 12px;
+}
+
+/* Just separating a little between the skills */
+.css{
+  margin-left: 5px;
+}
+
+.javascript{
+  margin-left: 5px;
+}
+
+/* Editing the button inside the card */
+
+div button{
+border: 1px solid rgba(96, 112, 255, 1);
+background-color: rgba(255, 255, 255, 1);
+width: 126px;
+height: 48px;
+padding: 12px;
+margin-top: 15px;
+border-radius: 8px;
+color: #396DF2;
+font-weight: 500;
+font-size: 17px;
 }
