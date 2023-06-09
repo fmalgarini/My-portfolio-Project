@@ -1,1 +1,109 @@
-# My-portfolio-Project
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [My-Porfolio] <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[MyPorfolio]** is a not finished job, where you can see my progress. I've finished the NavBar and a Section (Presentation)
+
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Microverse</summary>
+  <ul>
+    <li><a>HTML</a></li>
+  </ul>
+  <ul>
+    <li><a>CSS</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Proligity]**
+- **[Personal Growth]**
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+Clone this repository and put it into a Code editor. Example: Visual Studio Code. 
+And run it throw your preferred browser.
+
+
+
+
+### Run tests
+
+To run tests, run the following command:
+In order to run the tests you need to run:
+*Linter.yml.
+*Lighthouse
+An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more.
+*Webhint
+A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors.
+
+
+## 👥 Facundo Malgarini <a name="authors"></a>
+
+- GitHub: [@githubhandle](https://github.com/fmalgarini)
+- Twitter: [@twitterhandle](https://twitter.com/malga10)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/facundo-malgarini-192010208/)
+
+## 🔭 Future Features <a name="future-features"></a>
+- [ ] **[MAIN SECTION]**
+- [ ] **[JAVASCRIPT FILE]**
+- [ ] **[FOOTER WITH CONTACT]**
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project feel free and dont hesitate to require modifications.
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Mycroverse and my partners, the help me a lot in my 
+own growth.
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+

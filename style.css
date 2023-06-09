@@ -1,0 +1,102 @@
+/* Fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@700&display=swap');
+
+/* Global configuration */
+* {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Body background color */
+
+body {
+  background: #e5e5e5;
+}
+
+/* Styiling Header and nav using FLEX/ Logo font and color figures */
+.nav-container {
+  /* border: 3px solid rgb(8, 206, 241); */
+  list-style: none;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+/* General flex items settings in nav */
+.nav-items {
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 8vw;
+}
+
+/* Adding the hamburger menu and modifying it */
+.assetNav {
+  background-image: url(assets/Union.svg);
+  background-repeat: no-repeat;
+  width: 10%;
+  height: 25%;
+}
+
+/* section border radious */
+section {
+  border-bottom-left-radius: 5em;
+  background-color: white;
+}
+
+/* Styiling Section and divs using FLEX/ BackgroundImage,h1 title, and software developer presentation figures */
+.section-container {
+  /* border: 3px solid red; */
+  background-image: url(assets/header-shapes.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22vh 8vw;
+  gap: 12px;
+}
+
+/* Just borderin all items for guide myself better */
+
+.section-container h1 {
+  /* border: 3px solid yellow; */
+  background: none;
+  color: rgba(23, 43, 77, 1);
+  font-weight: 700;
+  line-height: 52px;
+  font-size: 2.4em;
+}
+
+.section-container p {
+  /* border: 3px solid black; */
+  color: #344563;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.section-container span {
+  /* border: 3px solid aqua; */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6070ff;
+}
+
+.item4 {
+  /* border: 3px solid rgb(0, 255, 64); */
+  background-image: url(assets/social\ media\ icons.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 170.17px;
+  height: 20px;
+}
