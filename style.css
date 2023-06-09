@@ -120,10 +120,10 @@ background-color: #344563;
 
 /* Editing the TONIC word inside the card*/
 div > h4{
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-color: rgba(23, 43, 77, 1);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: rgba(23, 43, 77, 1);
 }
 
 /* editing "Back End Dev", "2015" and dots in the card */
@@ -138,73 +138,77 @@ color: rgba(23, 43, 77, 1);
 
 /* Editing the word: "CANOPY" */
 div .word1{
-color: rgba(52, 69, 99, 1);
-font-weight: 600;
-font-size: 13px;
-line-height: 19px;
+  color: rgba(52, 69, 99, 1);
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
 }
 
 /* Editing the word: "Back End Dev" */
 div .word2{
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #7A869A;
-margin-left: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+  margin-left: 8px;
 }
 
 /* Editing the word: "2015" */
 div .word3 {
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #7A869A;
-margin-left: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+  margin-left: 8px;
 }
 
 /* Editing the paragraph inside de card */
 
 div > p {
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-color: rgba(52, 69, 99, 1);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(52, 69, 99, 1);
 }
 
 /* Editing the skills part insidte the card */
 
-.skill {
+.workContainer{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px 0px;
+}
+
+.workContainer li {
   background: #EBEBFF;
   border-radius: 8px;
   width: 57px;
-  height: 24px;
+  height: 20px;
   font-weight: 500;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 20px;
   color: rgba(96, 112, 255, 1);
   padding: 4px 12px 4px 12px;
-}
-
-/* Just separating a little between the skills */
-.css{
-  margin-left: 5px;
-}
-
-.javascript{
+  text-align: center;
   margin-left: 5px;
 }
 
 /* Editing the button inside the card */
 
 div button{
-border: 1px solid rgba(96, 112, 255, 1);
-background-color: rgba(255, 255, 255, 1);
-width: 126px;
-height: 48px;
-padding: 12px;
-margin-top: 15px;
-border-radius: 8px;
-color: #396DF2;
-font-weight: 500;
-font-size: 17px;
+  border: 1px solid rgba(96, 112, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  width: 126px;
+  height: 48px;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 8px;
+  color: #396DF2;
+  font-weight: 500;
+  font-size: 17px;
 }
+
+/* Editing AboutMySelf Section */
+/* ________________________________________________________About My self__________________________________________________ */
+
