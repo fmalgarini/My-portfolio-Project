@@ -213,95 +213,95 @@ div > p {
 /* ________________________________________________________About My self__________________________________________________ */
 
 .aboutMyself {
-
-padding: 114px 24px;
-background-color: white;
-border-top-right-radius: 6rem;
+  padding: 114px 24px;
+  background-color: white;
+  border-top-right-radius: 6rem;
 }
 
-.aboutMyself-container{
-display: flex;
-flex-direction: column;
-gap: 12px;
-
+.aboutMyself-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.aboutMyself-container h4{
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: rgba(23, 43, 77, 1);
+.aboutMyself-container h4 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: rgba(23, 43, 77, 1);
 }
 
 .aboutMyself-container p {
-font-weight: 400;
-font-size: 16;
-line-height: 24px;
-color: rgba(52, 69, 99, 1);
+  font-weight: 400;
+  font-size: 16;
+  line-height: 24px;
+  color: rgba(52, 69, 99, 1);
 }
 
 .aboutMyself-container h5 {
-font-weight: 500;
-font-size: 16;
-line-height: 24px;
-color: rgba(127, 140, 255, 1);
+  font-weight: 500;
+  font-size: 16;
+  line-height: 24px;
+  color: rgba(127, 140, 255, 1);
 }
+
 /* frame icons editing */
-.frame{
-display: flex;
-flex-direction: row;
-align-items: center;
-width: 200px;
-height: 40px;
-justify-content: space-evenly;
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  justify-content: space-evenly;
 }
 
 #frame1 {
-background-image: url(assets/GitHub.svg);
-background-repeat: no-repeat;
-background-size: cover;
-width: 30px;
-height: 30px;
+  background-image: url(assets/GitHub.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
 }
 
 #frame2 {
-background-image: url(assets/linkedin.svg);
-background-repeat: no-repeat;
-background-size: cover;
-background-repeat: no-repeat;
-background-size: cover;
-width: 30px;
-height: 30px;
-
+  background-image: url(assets/linkedin.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
 }
+
 #frame3 {
-background-image: url(assets/victoryHand.svg);
-background-repeat: no-repeat;
-background-size: cover;
-background-repeat: no-repeat;
-background-size: cover;
-width: 30px;
-height: 38px;
+  background-image: url(assets/victoryHand.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 38px;
 }
 
 #frame4 {
-background-image: url(assets/Twitter.svg);
-background-repeat: no-repeat;
-background-size: cover;
-background-repeat: no-repeat;
-background-size: cover;
-width: 30px;
-height: 30px;
+  background-image: url(assets/Twitter.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
 }
 
 #frame5 {
-background-image: url(assets/MVECTOR.svg);
-background-repeat: no-repeat;
-background-size: cover;
-background-repeat: no-repeat;
-background-size: cover;
-width: 37px;
-height: 30px;
+  background-image: url(assets/MVECTOR.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 37px;
+  height: 30px;
 }
 
 
@@ -317,4 +317,68 @@ height: 30px;
   font-size: 17px;
 }
 
+/* Languages container */
+
+.languageAndArrowContainer {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: start;
+  margin-top: 40px;
+}
+
+.languageAndArrowContainer img{
+margin-left: 35px
+}
+
+.languagesContainer {
+display: flex;
+flex-direction: row;
+margin-top: 15px;
+}
+
+.languages {
+  background-color: #f7f7f9;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 9px 12px 10px 10px;
+  border-radius: 0.7em;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 20px;
+  color: #253858;
+}
+
+#js {
+color: rgba(37, 56, 88, 1);
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+height: 24px;
+padding: 12px;
+width: 215px;
+}
+
+#html {
+color: rgba(37, 56, 88, 1);
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+height: 24px;
+padding: 12px;
+width: 215px;
+}
+
+#css {
+  color: rgba(37, 56, 88, 1);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  height: 24px;
+  padding: 12px;
+  width: 215px;
+}
 
