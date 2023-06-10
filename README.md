@@ -19,18 +19,12 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [My-Porfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[MyPorfolio]** Is a part finished job, where I present myself also show my skills and abilities at the moment.
 
-
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Microverse</summary>
@@ -42,7 +36,6 @@
   </ul>
 </details>
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
@@ -52,15 +45,9 @@
 - **[Personal Growth]**
 
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
-
-In order to run this project you need:
 
 Clone this repository and put it into a Code editor. Example: Visual Studio Code. 
 And run it throw your preferred browser.
