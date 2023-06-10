@@ -107,20 +107,24 @@ div > p {
 
 /* note: I've placed the images in the html */
 
-.card-container {
+.card1 {
   display: grid;
   background-color: white;
-  border: 1px solid #dfe1e6;
+  border: 2px solid #dfe1e6;
   grid-template-columns: auto;
   margin: 5%;
   padding: 5%;
   border-radius: 1em;
-  text-align: center;
 }
 
 /* general settings for every Cards */
-.cardWorks {
-  text-align: start;
+
+.cardWorks p {
+  padding-top: 10px;
+  color: rgba(52, 69, 99, 1);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 /* Editing the TONIC word inside the card */
@@ -172,6 +176,7 @@ div .word3 {
 /* Editing the skills part insidte the card */
 
 .workContainer {
+  margin-top: 10px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -180,15 +185,22 @@ div .word3 {
 .workContainer li {
   background: #ebebff;
   border-radius: 8px;
-  width: 57px;
+  width: auto;
   height: 20px;
   font-weight: 500;
   font-size: 12px;
   line-height: 20px;
   color: rgba(96, 112, 255, 1);
-  padding: 4px 12px 4px 12px;
+  padding: 1px 14px 1px 10px;
   text-align: center;
-  margin-left: 5px;
+}
+
+.workContainer #workContainercss {
+  margin-left: 10px;
+}
+
+.workContainer #workContainerjs {
+  margin-left: 10px;
 }
 
 /* Editing the button inside the card */
@@ -204,6 +216,13 @@ div .word3 {
   color: #396df2;
   font-weight: 500;
   font-size: 17px;
+}
+
+.cardButton:hover {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #396df2;
+  color: white;
 }
 
 /* Editing AboutMySelf Section */
@@ -222,7 +241,7 @@ div .word3 {
   gap: 12px;
 }
 
-.aboutMyself-container h4 {
+.aboutMyself-container h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -231,15 +250,15 @@ div .word3 {
 
 .aboutMyself-container p {
   font-weight: 400;
-  font-size: 16;
+  font-size: 16px;
   line-height: 24px;
   color: rgba(52, 69, 99, 1);
 }
 
 .aboutMyself-container h5 {
   font-weight: 500;
-  font-size: 16;
-  line-height: 24px;
+  font-size: 22px;
+  line-height: 40px;
   color: rgba(127, 140, 255, 1);
 }
 
@@ -258,40 +277,40 @@ div .word3 {
   background-image: url(assets/GitHub.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 20px;
 }
 
 #frame2 {
   background-image: url(assets/linkedin.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 #frame3 {
   background-image: url(assets/victoryHand.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 38px;
+  width: 20px;
+  height: 25px;
 }
 
 #frame4 {
   background-image: url(assets/Twitter.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 #frame5 {
   background-image: url(assets/MVECTOR.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 37px;
-  height: 30px;
+  width: 21px;
+  height: 16px;
 }
 
 #aboutMyselfBotton {
@@ -304,6 +323,13 @@ div .word3 {
   color: #396df2;
   font-weight: 500;
   font-size: 17px;
+}
+
+#aboutMyselfBotton:hover {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #396df2;
+  color: white;
 }
 
 /* Languages container */
@@ -319,7 +345,11 @@ div .word3 {
 }
 
 .languageAndArrowContainer img {
-  margin-left: 35px;
+  margin-left: 38px;
+}
+
+.languageAndArrowContainer .skillsArrow {
+  margin-left: 110px;
 }
 
 .languagesContainer {
