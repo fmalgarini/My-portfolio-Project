@@ -16,9 +16,11 @@ body {
   background: #e5e5e5;
 }
 
+/* --------------------------NAV-------------------------------- */
+
 /* Styiling Header and nav using FLEX/ Logo font and color figures */
+
 .nav-container {
-  /* border: 3px solid rgb(8, 206, 241); */
   list-style: none;
   display: flex;
   height: 10vh;
@@ -43,15 +45,10 @@ body {
   height: 25%;
 }
 
-/* section border radious */
-section {
-  border-bottom-left-radius: 5em;
-  background-color: white;
-}
+/* ------------------------PRESENTATION--------------------------------- */
 
 /* Styiling Section and divs using FLEX/ BackgroundImage,h1 title, and software developer presentation figures */
-.section-container {
-  /* border: 3px solid red; */
+.presentation-container {
   background-image: url(assets/header-shapes.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,12 +57,11 @@ section {
   align-items: flex-start;
   padding: 22vh 8vw;
   gap: 12px;
+  border-bottom-left-radius: 5em;
+  background-color: white;
 }
 
-/* Just borderin all items for guide myself better */
-
-.section-container h1 {
-  /* border: 3px solid yellow; */
+.presentation-container h1 {
   background: none;
   color: rgba(23, 43, 77, 1);
   font-weight: 700;
@@ -73,15 +69,20 @@ section {
   font-size: 2.4em;
 }
 
-.section-container p {
-  /* border: 3px solid black; */
+div > p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(52, 69, 99, 1);
+}
+
+.presentation-container p {
   color: #344563;
   font-weight: 600;
   line-height: 24px;
 }
 
-.section-container span {
-  /* border: 3px solid aqua; */
+.presentation-container span {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -91,7 +92,6 @@ section {
 }
 
 .item4 {
-  /* border: 3px solid rgb(0, 255, 64); */
   background-image: url(assets/social\ media\ icons.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,4 +99,296 @@ section {
   justify-content: space-between;
   width: 170.17px;
   height: 20px;
+}
+
+/* ------------------------------CARDS---------------------------------- */
+
+/* Card-container general settings */
+
+/* note: I've placed the images in the html */
+
+.card1 {
+  display: grid;
+  background-color: white;
+  border: 2px solid #dfe1e6;
+  grid-template-columns: auto;
+  margin: 5%;
+  padding: 5%;
+  border-radius: 1em;
+}
+
+/* general settings for every Cards */
+
+.cardWorks p {
+  padding-top: 10px;
+  color: rgba(52, 69, 99, 1);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* Editing the TONIC word inside the card */
+div > h4 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: rgba(23, 43, 77, 1);
+}
+
+/* editing "Back End Dev", "2015" and dots in the card */
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: rgba(193, 199, 208, 1);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+/* Editing the word: "CANOPY" */
+div .word1 {
+  color: rgba(52, 69, 99, 1);
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+/* Editing the word: "Back End Dev" */
+div .word2 {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  margin-left: 8px;
+}
+
+/* Editing the word: "2015" */
+div .word3 {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  margin-left: 8px;
+}
+
+/* Editing the paragraph inside de card */
+
+/* Editing the skills part insidte the card */
+
+.workContainer {
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.workContainer li {
+  background: #ebebff;
+  border-radius: 8px;
+  width: auto;
+  height: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(96, 112, 255, 1);
+  padding: 1px 14px 1px 10px;
+  text-align: center;
+}
+
+.workContainer #workContainercss {
+  margin-left: 10px;
+}
+
+.workContainer #workContainerjs {
+  margin-left: 10px;
+}
+
+/* Editing the button inside the card */
+
+.cardButton {
+  border: 1px solid rgba(96, 112, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  width: 126px;
+  height: 48px;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 8px;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.cardButton:hover {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #396df2;
+  color: white;
+}
+
+/* Editing AboutMySelf Section */
+
+/* ________________________________________________________About My self__________________________________________________ */
+
+.aboutMyself {
+  padding: 114px 24px;
+  background-color: white;
+  border-top-right-radius: 6rem;
+}
+
+.aboutMyself-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.aboutMyself-container h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: rgba(23, 43, 77, 1);
+}
+
+.aboutMyself-container p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(52, 69, 99, 1);
+}
+
+.aboutMyself-container h5 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: rgba(127, 140, 255, 1);
+}
+
+/* frame icons editing */
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  justify-content: space-evenly;
+}
+
+#frame1 {
+  background-image: url(assets/GitHub.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 18px;
+  height: 20px;
+}
+
+#frame2 {
+  background-image: url(assets/linkedin.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+#frame3 {
+  background-image: url(assets/victoryHand.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 25px;
+}
+
+#frame4 {
+  background-image: url(assets/Twitter.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+#frame5 {
+  background-image: url(assets/MVECTOR.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 21px;
+  height: 16px;
+}
+
+#aboutMyselfBotton {
+  border: 1px solid rgba(57, 109, 242, 1);
+  background-color: rgba(255, 255, 255, 1);
+  width: 164px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+#aboutMyselfBotton:hover {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #396df2;
+  color: white;
+}
+
+/* Languages container */
+
+.languageAndArrowContainer {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.languagesContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.languages {
+  background-color: #f7f7f9;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 9px 12px 10px 10px;
+  border-radius: 0.7em;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 20px;
+  color: #253858;
+}
+
+#js {
+  color: rgba(37, 56, 88, 1);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  height: 24px;
+  padding: 12px;
+  width: 215px;
+}
+
+#html {
+  color: rgba(37, 56, 88, 1);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  height: 24px;
+  padding: 12px;
+  width: 215px;
+}
+
+#css {
+  color: rgba(37, 56, 88, 1);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  height: 24px;
+  padding: 12px;
+  width: 215px;
 }
