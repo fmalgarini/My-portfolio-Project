@@ -460,13 +460,16 @@ input {
   font-size: 1em;
   text-align: start;
 }
+
 /* placeholder edits for textarea */
 textarea {
   padding: 5%;
 }
+
 textarea::placeholder {
   color: rgba(179, 186, 197, 1);
 }
+
 /* form bootom */
 #formButton {
   border: 1px solid rgba(57, 109, 242, 1);
@@ -479,8 +482,8 @@ textarea::placeholder {
   font-size: 17px;
   align-self: self-start;
 }
-#formButton:hover 
-{
+
+#formButton:hover {
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: #396df2;
