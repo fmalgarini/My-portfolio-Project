@@ -6,17 +6,14 @@
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
@@ -51,6 +48,13 @@ Clone this repository and put it into a Code editor. Example: Visual Studio Code
 And run it throw your preferred browser.
 Imporant: You need to have the assests files into your folders propertly.
 
+## Install
+
+There is no installation required for this project.
+
+## Usage
+
+To use this project, update the HTML and CSS files with your own content and styling.
 
 ### Run tests
 
@@ -62,17 +66,23 @@ An open-source, automated tool for improving the quality of web pages. It has au
 *Webhint
 A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors.
 
-
-## 👥 Facundo Malgarini <a name="authors"></a>
-
+## 👥 Authors <a name="authors"></a>
+    👤 Facundo Malgarini
 - GitHub: [@githubhandle](https://github.com/fmalgarini)
 - Twitter: [@twitterhandle](https://twitter.com/malga10)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/facundo-malgarini-192010208/)
+
+## 👥 Collaborator <a name="collaborator"></a>
+   👤 Cristian Villa
+- GitHub: [@githubhandle](https://github.com/CVILLA09)
 
 ## 🔭 Future Features <a name="future-features"></a>
 - [ ] **[FOOTER WITH CONTACT]**
 - [ ] **[JAVASCRIPT FILE]**
 
+# 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
