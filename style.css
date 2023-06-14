@@ -419,7 +419,7 @@ footer {
 /* footer form */
 
 .form-container {
-  padding-top: 3.5rem;
+  padding-top: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
