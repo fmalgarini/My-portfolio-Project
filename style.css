@@ -10,12 +10,6 @@
   text-decoration: none;
 }
 
-/* Body background color */
-
-body {
-  background: #e5e5e5;
-}
-
 /* --------------------------NAV-------------------------------- */
 
 /* Styiling Header and nav using FLEX/ Logo font and color figures */
@@ -391,4 +385,102 @@ div .word3 {
   height: 24px;
   padding: 12px;
   width: 215px;
+}
+
+/* Footer background img and general settings */
+footer {
+  background-image: url(assets/ContactMeBackground.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  padding: 15vh 8vw 5vh 8vw;
+  background-color: rgba(96, 112, 255, 1);
+  border-top-left-radius: 6.5rem;
+}
+
+/* footer form */
+
+.form-container {
+  padding-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact me form */
+.form-container h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+/* Contact me pharagraph */
+
+.form-container p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding-bottom: 1.5rem;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Contact Me */
+
+input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 1rem;
+  height: 8px;
+  width: 300px;
+  font-size: 500;
+}
+
+/* Place older edits for imputs */
+
+::placeholder {
+  color: rgba(23, 43, 77, 1);
+  font-weight: 500;
+  letter-spacing: 0;
+  font-size: 1em;
+  text-align: start;
+}
+
+/* placeholder edits for textarea */
+
+textarea {
+  padding: 5%;
+}
+
+textarea::placeholder {
+  color: rgba(179, 186, 197, 1);
+}
+
+/* form bootom */
+#formButton {
+  border: 1px solid rgba(57, 109, 242, 1);
+  background-color: rgba(255, 255, 255, 1);
+  width: 164px;
+  height: 48px;
+  border-radius: 8px;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  align-self: self-start;
+}
+
+#formButton:hover {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #396df2;
+  color: white;
 }
