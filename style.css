@@ -477,6 +477,7 @@ input {
 
 textarea {
   padding: 5%;
+  border-radius: 8px;
 }
 
 textarea::placeholder {
