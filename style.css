@@ -546,6 +546,7 @@ textarea::placeholder {
   position: fixed;
   width: 100%;
   justify-content: space-evenly;
+  gap: 35rem;
 }
 
 .nav-links {
@@ -554,6 +555,14 @@ textarea::placeholder {
   font-weight: 500;
   font-size: 0.9em;
   line-height: 20px;
+}
+
+
+.container-navlink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
 }
 
 
