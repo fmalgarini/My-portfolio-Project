@@ -249,16 +249,19 @@ div .word3 {
 
 /* ________________________________________________________About My self__________________________________________________ */
 
+
 .aboutMyself {
-  padding: 114px 24px;
-  background-color: white;
-  border-top-right-radius: 6rem;
- }
+  border: 1px solid red;
+background-color: white;
+border-top-right-radius: 6rem;
+}
 
 .aboutMyself-container {
+  border: 1px solid green;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  
 }
 
 .aboutMyself-container h3 {
@@ -294,41 +297,26 @@ div .word3 {
 }
 
 #frame1 {
-  background-image: url(assets/GitHub.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 18px;
   height: 20px;
 }
 
 #frame2 {
-  background-image: url(assets/linkedin.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 20px;
   height: 20px;
 }
 
 #frame3 {
-  background-image: url(assets/victoryHand.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 20px;
   height: 25px;
 }
 
 #frame4 {
-  background-image: url(assets/Twitter.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 20px;
   height: 20px;
 }
 
 #frame5 {
-  background-image: url(assets/MVECTOR.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 21px;
   height: 16px;
 }
@@ -358,66 +346,9 @@ div .word3 {
   border-color: #2230d2;
 }
 
-/* Languages container */
+/* Skill list container */
 
-.languageAndArrowContainer {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: rgba(0, 0, 0, 1);
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-}
 
-.languagesContainer {
-  display: flex;
-  flex-direction: row;
-  margin-top: 15px;
-}
-
-.languages {
-  background-color: #f7f7f9;
-  display: flex;
-  align-items: center;
-  margin-bottom: 12px;
-  padding: 9px 12px 10px 10px;
-  border-radius: 0.7em;
-  font-weight: 500;
-  font-size: 1em;
-  line-height: 20px;
-  color: #253858;
-}
-
-#js {
-  color: rgba(37, 56, 88, 1);
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  height: 24px;
-  padding: 12px;
-  width: 215px;
-}
-
-#html {
-  color: rgba(37, 56, 88, 1);
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  height: 24px;
-  padding: 12px;
-  width: 215px;
-}
-
-#css {
-  color: rgba(37, 56, 88, 1);
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  height: 24px;
-  padding: 12px;
-  width: 215px;
-}
 
 /* Footer background img and general settings */
 footer {
@@ -603,10 +534,7 @@ textarea::placeholder {
   background-color: white;
   border: 2px solid #dfe1e6;
   border-radius: 1em;
-  /* border: 3px solid green; */
-  width: 70rem;
   height: 25rem;
-
   }
 
 /* _______________CARD 1___________ */
@@ -732,15 +660,29 @@ content: url(assets/bigSizePicCard4.svg);
 }
 
  /*About myself */
-  .aboutMyself {
-  padding: 114px 24px;
-  background-color: white;
-  border-top-right-radius: 6rem;
-}
+
+.aboutMyself {
+ border: 3px solid blue;
+} 
 
 .aboutMyself-container {
   border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
+
+.aboutMyself-container p {
+  margin: 0;
+  padding: 0;
+  color: #344563;
+}
+
+
+
 
 .languagesContainer {
   border: 3px solid red;
