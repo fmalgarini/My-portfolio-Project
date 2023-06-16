@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>mobile</title>
+  <title>About My</title>
   <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
@@ -14,7 +14,11 @@
       <ul class="nav-container">
         <li class="nav-items"><a href="#"></a>MyLogo</li>
         <li class="nav-items assetNav"><a href="#"></a></li>
+        <li class="nav-items nav-links navPortfolio">Porfolio</li>
+        <li class="nav-items nav-links navAbout">About</li>
+        <li class="nav-items nav-links navContact">Contact</li>
       </ul>
+        
     </nav>
   </header>
 <!-- This Section is for BackgroundImage,h1 title, and software developer presentation -->
@@ -29,19 +33,19 @@
  </section> 
 <!-- This section is the grid part, here I have 4 CARDS -->
 <!-- __________________________________CARD1______________________________ -->
-<Section class="card-container">
-  <div class="card1">
-    <img src="assets/CardPhoto1.svg" alt="ImgCard1">
+<Section>
+  <div class="card card1">
+    <img class="cardImg cardImg1" src="assets/CardPhoto1.svg" alt="ImgCard1">
     <div class="cardWorks">
         <h4>Tonic</h4>
-      <div>
+      <div class="cardWorks-skills">
         <span class="word1">CANOPY</span>
         <span class="dot"></span>
         <span class="word2">Back End Dev</span>
         <span class="dot"></span>
         <span class="word3">2015</span>
       </div>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+      <p class="pCards">A daily selection of privately personalized reads; no accounts or sign-ups required.
       </p>
            <ul class="workContainer">
              <li id="workContainerhtml">HTML</li>
@@ -59,22 +63,25 @@
 <!-- __________________________________CARD2______________________________ -->
 <Section class="card-container">
   <div class="card card1">
-    <img src="assets/CardPhoto2.svg" alt="ImgCard2">
+    <img class="cardImg cardImg2" src="assets/CardPhoto2.svg" alt="ImgCard2">
     <div class="cardWorks">
-        <h4>Tonic</h4>
-      <div>
-        <span class="word1">CANOPY</span>
+        <h4>Multi-Post Stories</h4>
+      <div class="cardWorks-skills">
+        <span class="word1">FACEBOOK</span>
         <span class="dot"></span>
         <span class="word2">Back End Dev</span>
         <span class="dot"></span>
         <span class="word3">2015</span>
       </div>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+      <p class="pCards">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
       </p>
         <ul class="workContainer">
           <li id="workContainerhtml">HTML</li>
+          <li id="workContainerRubyOnRails">Ruby On Rails</li>
           <li id="workContainercss">CSS</li>
           <li id="workContainerjs">Javascript</li>
+
+          
         </ul>
       <div>
           <button type="button" class="cardButton">See Project</button>
@@ -86,20 +93,21 @@
 <!-- __________________________________CARD3______________________________ -->
 <Section class="card-container">
   <div class="card card1">
-    <img src="assets/CardPhoto3.svg" alt="ImgCard3">
+    <img class="cardImg cardImg3" src="assets/CardPhoto3.svg" alt="ImgCard3">
     <div class="cardWorks">
-        <h4>Tonic</h4>
-      <div>
-        <span class="word1">CANOPY</span>
+        <h4>Facebook 360</h4>
+      <div class="cardWorks-skills">
+        <span class="word1">FACEBOOK</span>
         <span class="dot"></span>
-        <span class="word2">Back End Dev</span>
+        <span class="word2">Full Stack Dev</span>
         <span class="dot"></span>
         <span class="word3">2015</span>
       </div>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+      <p class="pCards">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
       </p>
         <ul class="workContainer">
           <li id="workContainerhtml">HTML</li>
+          <li id="workContainerRubyOnRails">Ruby on rails</li>
           <li id="workContainercss">CSS</li>
           <li id="workContainerjs">Javascript</li>
         </ul>
@@ -113,20 +121,21 @@
 <!-- __________________________________CARD4______________________________ -->
 <Section class="card-container">
   <div class="card card1">
-    <img src="assets/CardPhoto4.svg" alt="ImgCard4">
+    <img class="cardImg cardImg4" src="assets/CardPhoto4.svg" alt="ImgCard4">
     <div class="cardWorks">
-        <h4>Tonic</h4>
-      <div>
-        <span class="word1">CANOPY</span>
+        <h4>Uber Navigation</h4>
+      <div class="cardWorks-skills">
+        <span class="word1">Uber</span>
         <span class="dot"></span>
-        <span class="word2">Back End Dev</span>
+        <span class="word2">Lead Developer</span>
         <span class="dot"></span>
-        <span class="word3">2015</span>
+        <span class="word3">2018</span>
       </div>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+      <p class="pCards">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
       </p>
         <ul class="workContainer">
           <li id="workContainerhtml">HTML</li>
+          <li id="workContainerRubyOnRails">Ruby on rails</li>
           <li id="workContainercss">CSS</li>
           <li id="workContainerjs">Javascript</li>
         </ul>
@@ -176,6 +185,7 @@
   </div>
   <hr>
 </section>
+
 <!--  ______________________________Footer-FORM-section___________________________  -->
 <footer>
   <section class="form-container">

@@ -23,10 +23,15 @@ body {
 .nav-container {
   list-style: none;
   display: flex;
-  height: 10vh;
+  height: 15vh;
   align-items: center;
   justify-content: space-between;
   background-color: white;
+}
+
+.nav-links {
+  display: none;
+  
 }
 
 /* General flex items settings in nav */
@@ -55,7 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 22vh 8vw;
+  padding: 25vh 5vw;
   gap: 12px;
   border-bottom-left-radius: 5em;
   background-color: white;
@@ -193,6 +198,7 @@ div .word3 {
   color: rgba(96, 112, 255, 1);
   padding: 1px 14px 1px 10px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .workContainer #workContainercss {
@@ -202,6 +208,14 @@ div .word3 {
 .workContainer #workContainerjs {
   margin-left: 10px;
 }
+
+.workContainer #workContainerRubyOnRails {
+  margin-left: 10px;
+}
+
+
+
+
 
 /* Editing the button inside the card */
 
@@ -239,7 +253,7 @@ div .word3 {
   padding: 114px 24px;
   background-color: white;
   border-top-right-radius: 6rem;
-}
+ }
 
 .aboutMyself-container {
   display: flex;
@@ -509,3 +523,219 @@ textarea::placeholder {
   color: white;
   border-color: #2230d2;
 }
+
+
+/* Max media query */
+
+@media only screen and (min-width: 768px) {
+  .assetnav{
+  display: none;
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+
+.nav-container {
+  display: flex;
+  font-size: 15px;
+  line-height: 20px;
+  list-style: none;
+  height: 12vh;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.nav-links {
+  display: flex;
+  color: rgba(52, 69, 99, 1);
+  font-weight: 500;
+  font-size: 0.9em;
+  line-height: 20px;
+}
+
+
+.assetNav {
+ display: none;
+}
+
+/* #workContainerRubyOnRails {
+   display: none;
+   border: 1px solid green;
+} */
+
+/* Preseation settings */
+
+
+
+.presentation-container h1, p, span, .item4 {
+  font-size: 48px;
+  line-height: 60px;
+  margin: 0% 0% 0% 7%;
+}
+
+.presentation-container p{
+  width: 43rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+
+/* /* CARD1 GLOBAL SETTINGS */
+.card1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 3%;
+  background-color: white;
+  border: 2px solid #dfe1e6;
+  border-radius: 1em;
+  /* border: 3px solid green; */
+  width: 70rem;
+  height: 25rem;
+
+  }
+
+/* _______________CARD 1___________ */
+
+/* CARD1 ALL TEXT SETTING */
+
+.card .cardWorks {
+  /* border: 1px solid red; */
+  width: 37rem;
+  height: 30rem;
+}
+
+/* Img 1 SETTINGS */
+.cardImg {
+  /* border: 1px solid blue; */
+  width: 37rem;
+  height: 30rem;
+}
+
+/* card1 img */
+.cardImg1{
+content: url(assets/bigSizePicCard1.svg);
+}
+
+/* card2 img */
+
+.cardImg2{
+content: url(assets/bigSizePicCard2.svg);
+}
+
+/* card3 img */
+
+.cardImg3{
+content: url(assets/bigSizePicCard3.svg);
+}
+
+/* card4 img */
+.cardImg4{
+content: url(assets/bigSizePicCard4.svg);
+}
+
+
+/* Invert img */
+.card-container:nth-child(4) .cardImg,
+.card-container:nth-child(6) .cardImg {
+  order: 1;
+}
+
+/* Word TONIC */
+.cardWorks h4{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-left: 2.2rem;
+}
+
+/* Class card work skills setting */
+.cardWorks-skills {
+   margin-top: 1rem;
+   
+  }
+
+
+/* Words "canopy" "back end dev" and "2015" settings */
+.word1 {
+  width: 43px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
+}
+.word2 {
+  width: 120px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 8px;
+  color: #6b778c;
+}
+.word3 {
+  padding: 8px;
+  width: 38px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+
+/* settings for pharagarph */
+.cardWorks .pCards {
+  margin-top: 1rem;
+  width: 31rem; 
+  height: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  }
+
+/* settings for words: html css and javascript */
+  .workContainer {
+  margin-top: 1rem;
+  border-radius: 8px;
+  margin-left: 2.2rem;
+  }
+
+  /* settings for words: html css and javascript */
+.cardButton{
+  width: 140px;
+  margin-left: 2.2rem;
+  margin-top: 3rem;
+}
+
+ /*About myself */
+  .aboutMyself {
+  padding: 114px 24px;
+  background-color: white;
+  border-top-right-radius: 6rem;
+}
+
+.aboutMyself-container {
+  border: 3px solid green;
+}
+
+.languagesContainer {
+  border: 3px solid red;
+
+}
+
+} 
