@@ -533,6 +533,10 @@ textarea::placeholder {
   .assetnav {
     display: none;
   }
+
+  .nav-container{
+  display: none;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -547,39 +551,37 @@ textarea::placeholder {
     font-size: 15px;
     line-height: 20px;
     list-style: none;
-    height: 12vh;
+    height: 11vh;
     background-color: white;
     position: fixed;
+    align-items: center;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
-  .nav-container {
-    display: flex;
-    font-size: 15px;
-    line-height: 20px;
-    list-style: none;
-    height: 12vh;
-    background-color: white;
-    position: fixed;
-    width: 100%;
-    justify-content: space-evenly;
+
+  .logo-desktop {
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 4rem;
   }
 
-  .nav-logo {
-    border: 3px solid;
-  }
 
-  .nav-links {
-    display: flex;
+
+ .container-link {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-right: 8rem;
+
+}
+
+  .desktop-link {
     color: rgba(52, 69, 99, 1);
     font-weight: 500;
-    font-size: 0.9em;
+    font-size: 15px;
     line-height: 20px;
-  }
-
-  .assetNav {
-    display: none;
   }
 
   /* Presentation */
