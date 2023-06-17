@@ -806,16 +806,14 @@ textarea::placeholder {
     color: #344563;
   }
 
-  .languagesContainer {
-    display: flex;
-    flex-direction: column;
-  }
+
 
   .container-desktop {
     display: flex;
     flex-direction: row;
     gap: 3px;
   }
+
 
   .languages {
     padding: 0;
@@ -828,28 +826,33 @@ textarea::placeholder {
     height: 8rem;
   }
 
+  .languages-img{
+  align-self: flex-start;
+
+  }
+
   #js {
     padding: 0;
+    align-self: flex-start;
     color: rgba(37, 56, 88, 1);
     padding-top: 0.5rem;
-    margin-left: 1.5rem;
     width: 6rem;
   }
 
   #html {
     padding: 0;
+    align-self: flex-start;
     color: rgba(37, 56, 88, 1);
     padding-top: 0.5rem;
-    margin-right: 1rem;
     width: 3rem;
   }
 
   #css {
     padding: 0;
+    align-self: flex-start;
     color: rgba(37, 56, 88, 1);
     font-size: 15px;
     padding-top: 0.5rem;
-    margin-right: 1rem;
     width: 2rem;
   }
 
