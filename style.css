@@ -529,6 +529,7 @@ textarea::placeholder {
 
 /* Max media query */
 
+
 @media only screen and (min-width: 768px) {
   .assetnav {
     display: none;
@@ -538,13 +539,11 @@ textarea::placeholder {
     display: none;
   }
 
-  .presentation-container {
-    display: none;
-  }
-
-
 
 }
+
+
+
 
 @media only screen and (min-width: 768px) {
   #workContainerRubyOnRails {
@@ -589,14 +588,16 @@ textarea::placeholder {
   /* Background logo */
 
   .presentation-desktop {
-    background-image: url(assets/header-shapes.svg);
+    background-image: url(assets/header-bg-desktop.svg);
+    background-size: contain;
+    background-position-x: right;
     background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     padding: 32vh 5vw;
     border-bottom-left-radius: 5em;
     background-color: white;
+  
   }
 
   /* Presentation */
