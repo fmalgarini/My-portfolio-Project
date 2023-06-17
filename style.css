@@ -529,7 +529,6 @@ textarea::placeholder {
 
 /* Max media query */
 
-
 @media only screen and (min-width: 768px) {
   .assetnav {
     display: none;
@@ -538,12 +537,7 @@ textarea::placeholder {
   .nav-container {
     display: none;
   }
-
-
 }
-
-
-
 
 @media only screen and (min-width: 768px) {
   #workContainerRubyOnRails {
@@ -597,7 +591,6 @@ textarea::placeholder {
     padding: 32vh 5vw;
     border-bottom-left-radius: 5em;
     background-color: white;
-  
   }
 
   /* Presentation */
@@ -810,14 +803,11 @@ textarea::placeholder {
     color: #344563;
   }
 
-
-
   .container-desktop {
     display: flex;
     flex-direction: row;
     gap: 3px;
   }
-
 
   .languages {
     padding: 0;
@@ -830,9 +820,8 @@ textarea::placeholder {
     height: 8rem;
   }
 
-  .languages-img{
-  align-self: flex-start;
-
+  .languages-img {
+    align-self: flex-start;
   }
 
   #js {
@@ -870,7 +859,6 @@ textarea::placeholder {
     background-image: url(assets/backgraund-footer-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    
   }
 
   .form-container {
