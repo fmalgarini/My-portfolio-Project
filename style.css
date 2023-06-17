@@ -216,8 +216,6 @@ div .word3 {
   margin-left: 10px;
 }
 
-
-
 /* Editing the button inside the card */
 
 .cardButton {
@@ -542,7 +540,6 @@ textarea::placeholder {
     display: block;
   }
 
-
   /* Nav icons */
 
   .nav-desktop {
@@ -584,10 +581,6 @@ textarea::placeholder {
   .assetNav {
     display: none;
   }
-
-
-
-
 
   /* Presentation */
 
@@ -675,7 +668,6 @@ textarea::placeholder {
     content: url(assets/bigSizePicCard4.svg);
   }
 
-
   /* Invert img */
   .card-container:nth-child(4) .cardImg,
   .card-container:nth-child(6) .cardImg {
@@ -694,7 +686,6 @@ textarea::placeholder {
   .cardWorks-skills {
     margin-top: 1rem;
   }
-
 
   /* Words "canopy" "back end dev" and "2015" settings */
   .word1 {
@@ -727,7 +718,6 @@ textarea::placeholder {
     font-size: 18px;
     line-height: 24px;
   }
-
 
   /* settings for pharagarph */
   .cardWorks .pCards {
