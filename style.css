@@ -53,13 +53,14 @@ body {
 /* ------------------------PRESENTATION--------------------------------- */
 
 /* Styiling Section and divs using FLEX/ BackgroundImage,h1 title, and software developer presentation figures */
+
+
 .presentation-container {
   background-image: url(assets/header-shapes.svg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 25vh 5vw;
   gap: 12px;
   border-bottom-left-radius: 5em;
@@ -524,6 +525,13 @@ textarea::placeholder {
   border-color: #2230d2;
 }
 
+#workContainerRubyOnRails{
+ display: none;
+}
+
+.nav-desktop{
+display: none;
+}
 
 /* Max media query */
 
@@ -531,12 +539,21 @@ textarea::placeholder {
   .assetnav{
   display: none;
 }
+
+
 }
 
 
 @media only screen and (min-width: 768px) {
 
-.nav-container {
+#workContainerRubyOnRails{
+ display: block;
+}
+
+
+/* Nav icons */
+
+.nav-desktop {
   display: flex;
   font-size: 15px;
   line-height: 20px;
@@ -546,27 +563,46 @@ textarea::placeholder {
   position: fixed;
   width: 100%;
   justify-content: space-evenly;
+
+
 }
 
-.nav-links {
-  display: flex;
-  color: rgba(52, 69, 99, 1);
-  font-weight: 500;
-  font-size: 0.9em;
-  line-height: 20px;
-}
+  .nav-container {
+    display: flex;
+    font-size: 15px;
+    line-height: 20px;
+    list-style: none;
+    height: 12vh;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .nav-logo {
+  border: 3px solid ;
+
+  }
+
+  .nav-links {
+    display: flex;
+    color: rgba(52, 69, 99, 1);
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 20px;
+
+  }
 
 
 .assetNav {
  display: none;
 }
 
-/* #workContainerRubyOnRails {
-   display: none;
-   border: 1px solid green;
-} */
 
-/* Preseation settings */
+
+
+
+/* Presentation */
 
 
 
@@ -583,6 +619,18 @@ textarea::placeholder {
   line-height: 28px;
 }
 
+.transition-item {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInMoveUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInMoveUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 /* /* CARD1 GLOBAL SETTINGS */
 .card1 {
@@ -723,19 +771,96 @@ content: url(assets/bigSizePicCard4.svg);
 }
 
  /*About myself */
-  .aboutMyself {
-  padding: 114px 24px;
+  .aboutMyself {  
+  display: flex;
+  flex-direction: row;
   background-color: white;
   border-top-right-radius: 6rem;
+  gap: 3rem;
+  
 }
 
 .aboutMyself-container {
-  border: 3px solid green;
+  width: 40%;
+  margin-left: 3rem;
+}
+
+.aboutMyself-container h3 {
+ margin-top: 2rem;
+
+}
+
+.desktopVersion {
+  width: 45%;
+
+}
+
+.aboutMyself-container p {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+
+.span-language {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  color: #344563;
+
 }
 
 .languagesContainer {
-  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-desktop {
+display: flex;
+flex-direction: row;
+gap: 3px;
+}
+
+.languages {
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column;
+text-align: center;
+background-color: rgba(247, 247, 249, 1);
+width: 10rem;
+height: 8rem;
 
 }
+
+
+#js {
+padding: 0;
+padding-top: 0.5rem;
+width: 6rem;
+
+}
+
+#html {
+padding: 0;
+padding-top: 0.5rem;
+width: 3rem;
+}
+
+
+#css {
+padding: 0;
+padding-top: 0.5rem;
+width: 2rem;
+
+}
+
+
+
 
 } 
