@@ -419,7 +419,7 @@ div .word3 {
 }
 
 /* Footer background img and general settings */
-footer {
+.footer-mobile {
   background-image: url(assets/ContactMeBackground.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -534,9 +534,13 @@ textarea::placeholder {
     display: none;
   }
 
-  .nav-container{
-  display: none;
-}
+  .nav-container {
+    display: none;
+  }
+
+  .presentation-container {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -545,7 +549,6 @@ textarea::placeholder {
   }
 
   /* Nav icons */
-
   .nav-desktop {
     display: flex;
     font-size: 15px;
@@ -559,23 +562,19 @@ textarea::placeholder {
     justify-content: space-between;
   }
 
-
   .logo-desktop {
-  color: #6070ff;
-  font-weight: 700;
-  font-size: 18px;
-  padding-left: 4rem;
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 4rem;
   }
 
-
-
- .container-link {
-  display: flex;
-  justify-content: space-around;
-  width: 20%;
-  margin-right: 8rem;
-
-}
+  .container-link {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-right: 8rem;
+  }
 
   .desktop-link {
     color: rgba(52, 69, 99, 1);
@@ -584,28 +583,50 @@ textarea::placeholder {
     line-height: 20px;
   }
 
-  /* Presentation */
+  /* Background logo */
 
-  .presentation-container h1,
-  p,
-  span,
-  .item4 {
-    font-size: 48px;
-    line-height: 60px;
-    margin: 0% 0% 0% 7%;
+  .presentation-desktop {
+    background-image: url(assets/header-shapes.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 32vh 5vw;
+    border-bottom-left-radius: 5em;
+    background-color: white;
   }
 
-  .presentation-container p {
-    width: 43rem;
+  /* Presentation */
+
+  .presentation-desktop h1 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  .presentation-desktop p {
+    width: 70%;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
   }
 
-  .transition-item {
+  .presentation-desktop span {
+    margin-left: 10rem;
+  }
+
+  .presentation-desktop .item4 {
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+
+  .presentation-desktop-item {
     opacity: 0;
     transform: translateY(20px);
-    animation: fadeInMoveUp 0.8s ease-out forwards;
+    animation: fadeInMoveUp 1.3s ease-out forwards;
   }
 
   @keyframes fadeInMoveUp {
@@ -803,25 +824,73 @@ textarea::placeholder {
     flex-direction: column;
     text-align: center;
     background-color: rgba(247, 247, 249, 1);
-    width: 10rem;
+    width: 8rem;
     height: 8rem;
   }
 
   #js {
     padding: 0;
+    color: rgba(37, 56, 88, 1);
     padding-top: 0.5rem;
+    margin-left: 1.5rem;
     width: 6rem;
   }
 
   #html {
     padding: 0;
+    color: rgba(37, 56, 88, 1);
     padding-top: 0.5rem;
+    margin-right: 1rem;
     width: 3rem;
   }
 
   #css {
     padding: 0;
+    color: rgba(37, 56, 88, 1);
+    font-size: 15px;
     padding-top: 0.5rem;
+    margin-right: 1rem;
     width: 2rem;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: white;
+  }
+
+  .footer-desktop {
+    background-image: url(assets/ContactMeBackground.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+
+    /* padding: 15vh 8vw 5vh 8vw; */
+    background-color: rgba(96, 112, 255, 1);
+    border-top-left-radius: 6.5rem;
+  }
+
+  .form-container {
+    gap: 20px;
+  }
+
+  .footer-desktop p {
+    width: 43%;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  input {
+    border-radius: 0;
+    width: 28rem;
+  }
+
+  textarea {
+    border-radius: 0;
+  }
+
+  #formButton {
+    margin-left: 12rem;
   }
 }
