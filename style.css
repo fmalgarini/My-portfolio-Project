@@ -23,10 +23,14 @@ body {
 .nav-container {
   list-style: none;
   display: flex;
-  height: 10vh;
+  height: 15vh;
   align-items: center;
   justify-content: space-between;
   background-color: white;
+}
+
+.nav-links {
+  display: none;
 }
 
 /* General flex items settings in nav */
@@ -48,14 +52,14 @@ body {
 /* ------------------------PRESENTATION--------------------------------- */
 
 /* Styiling Section and divs using FLEX/ BackgroundImage,h1 title, and software developer presentation figures */
+
 .presentation-container {
   background-image: url(assets/header-shapes.svg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 22vh 8vw;
+  padding: 25vh 5vw;
   gap: 12px;
   border-bottom-left-radius: 5em;
   background-color: white;
@@ -193,6 +197,7 @@ div .word3 {
   color: rgba(96, 112, 255, 1);
   padding: 1px 14px 1px 10px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .workContainer #workContainercss {
@@ -200,6 +205,14 @@ div .word3 {
 }
 
 .workContainer #workContainerjs {
+  margin-left: 10px;
+}
+
+#workContainerRubyOnRails {
+  display: none;
+}
+
+.workContainer #workContainerRubyOnRails {
   margin-left: 10px;
 }
 
@@ -406,7 +419,7 @@ div .word3 {
 }
 
 /* Footer background img and general settings */
-footer {
+.footer-mobile {
   background-image: url(assets/ContactMeBackground.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -508,4 +521,371 @@ textarea::placeholder {
   background-color: #2230d2;
   color: white;
   border-color: #2230d2;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+/* Max media query */
+
+@media only screen and (min-width: 768px) {
+  .assetnav {
+    display: none;
+  }
+
+  .nav-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #workContainerRubyOnRails {
+    display: block;
+  }
+
+  /* Nav icons */
+  .nav-desktop {
+    display: flex;
+    font-size: 15px;
+    line-height: 20px;
+    list-style: none;
+    height: 11vh;
+    background-color: white;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .logo-desktop {
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 4rem;
+  }
+
+  .container-link {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-right: 8rem;
+  }
+
+  .desktop-link {
+    color: rgba(52, 69, 99, 1);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  /* Background logo */
+
+  .presentation-desktop {
+    background-image: url(assets/header-bg-desktop.svg);
+    background-size: contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 32vh 5vw;
+    border-bottom-left-radius: 5em;
+    background-color: white;
+  }
+
+  /* Presentation */
+
+  .presentation-desktop h1 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  .presentation-desktop p {
+    width: 70%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  .presentation-desktop span {
+    margin-left: 10rem;
+  }
+
+  .presentation-desktop .item4 {
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+
+  .presentation-desktop-item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInMoveUp 1.3s ease-out forwards;
+  }
+
+  @keyframes fadeInMoveUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* /* CARD1 GLOBAL SETTINGS */
+  .card1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 3%;
+    background-color: white;
+    border: 2px solid #dfe1e6;
+    border-radius: 1em;
+
+    /* border: 3px solid green; */
+    width: 70rem;
+    height: 25rem;
+  }
+
+  /* _______________CARD 1___________ */
+
+  /* CARD1 ALL TEXT SETTING */
+
+  .card .cardWorks {
+    /* border: 1px solid red; */
+    width: 37rem;
+    height: 30rem;
+  }
+
+  /* Img 1 SETTINGS */
+  .cardImg {
+    /* border: 1px solid blue; */
+    width: 37rem;
+    height: 30rem;
+  }
+
+  /* card1 img */
+  .cardImg1 {
+    content: url(assets/bigSizePicCard1.svg);
+  }
+
+  /* card2 img */
+
+  .cardImg2 {
+    content: url(assets/bigSizePicCard2.svg);
+  }
+
+  /* card3 img */
+
+  .cardImg3 {
+    content: url(assets/bigSizePicCard3.svg);
+  }
+
+  /* card4 img */
+  .cardImg4 {
+    content: url(assets/bigSizePicCard4.svg);
+  }
+
+  /* Invert img */
+  .card-container:nth-child(4) .cardImg,
+  .card-container:nth-child(6) .cardImg {
+    order: 1;
+  }
+
+  /* Word TONIC */
+  .cardWorks h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-left: 2.2rem;
+  }
+
+  /* Class card work skills setting */
+  .cardWorks-skills {
+    margin-top: 1rem;
+  }
+
+  /* Words "canopy" "back end dev" and "2015" settings */
+  .word1 {
+    width: 43px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .word2 {
+    width: 120px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 8px;
+    color: #6b778c;
+  }
+
+  .word3 {
+    padding: 8px;
+    width: 38px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  /* settings for pharagarph */
+  .cardWorks .pCards {
+    margin-top: 1rem;
+    width: 31rem;
+    height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* settings for words: html css and javascript */
+  .workContainer {
+    margin-top: 1rem;
+    border-radius: 8px;
+    margin-left: 2.2rem;
+  }
+
+  /* settings for words: html css and javascript */
+  .cardButton {
+    width: 140px;
+    margin-left: 2.2rem;
+    margin-top: 3rem;
+  }
+
+  /* About myself */
+  .aboutMyself {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-top-right-radius: 6rem;
+    gap: 3rem;
+  }
+
+  .aboutMyself-container {
+    width: 40%;
+    margin-left: 3rem;
+  }
+
+  .aboutMyself-container h3 {
+    margin-top: 2rem;
+  }
+
+  .desktopVersion {
+    width: 45%;
+  }
+
+  .aboutMyself-container p {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .span-language {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #344563;
+  }
+
+  .container-desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .languages {
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(247, 247, 249, 1);
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .languages-img {
+    align-self: flex-start;
+  }
+
+  #js {
+    padding: 0;
+    align-self: flex-start;
+    color: rgba(37, 56, 88, 1);
+    padding-top: 0.5rem;
+    width: 6rem;
+  }
+
+  #html {
+    padding: 0;
+    align-self: flex-start;
+    color: rgba(37, 56, 88, 1);
+    padding-top: 0.5rem;
+    width: 3rem;
+  }
+
+  #css {
+    padding: 0;
+    align-self: flex-start;
+    color: rgba(37, 56, 88, 1);
+    font-size: 15px;
+    padding-top: 0.5rem;
+    width: 2rem;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: white;
+  }
+
+  .footer-desktop {
+    background-image: url(assets/backgraund-footer-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .form-container {
+    background-image: url(assets/background-inside-footer.svg);
+    background-size: contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    gap: 20px;
+  }
+
+  .footer-desktop p {
+    width: 43%;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  input {
+    border-radius: 0;
+    width: 28rem;
+  }
+
+  textarea {
+    border-radius: 0;
+  }
+
+  #formButton {
+    margin-left: 12rem;
+  }
 }
